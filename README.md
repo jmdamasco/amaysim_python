@@ -46,6 +46,7 @@ Description : This is where I have configured the list of valide promos and ther
                
 
 -- The following are the assumptions I had when developing this exercise:
+
 1.) That for each product_code it has only one counterpart in the special promos.
 
 2.) That the promocode will be applied only once, regardless if the application will ask for promocode every other item         bought. In the case of entering another promocode wherein the user already has already supplied a promocode, the application will prompt if the user wants to change the promocode.
