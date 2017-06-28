@@ -37,12 +37,12 @@ Description : This is where i have configure the special promos.
 File : product_code.config
 Description : This is where I have configured the list of the products.
               
-              PRODUCT_CODE | DESCRIPTION | PRICE
+              PRODUCT_CODE | DESCRIPTION | PRICE
 
 File : promo_codes.config
 Description : This is where I have configured the list of valide promos and there discount rate.
 
-               PROMO_CODE | DISCOUNT_RATE
+              PROMO_CODE | DISCOUNT_RATE
                
 
 -- The following are the assumptions I had when developing this exercise:
