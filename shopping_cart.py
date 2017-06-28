@@ -158,7 +158,6 @@ class ShoppingCart(ScreenDisplay):
                             
 
                 self.cartList[key + "_price"] = int(newQuantity) * float(newPrice)
-                print(self.cartList[key + "_price"])
                 self.cartList[key + "_quantity"] = quantity
                 self.cartList[key + "_description"] = description
 
