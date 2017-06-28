@@ -1,7 +1,7 @@
 # amaysim_python
 Shopping cart exercise
 
-# This exercise is compose of the following files:
+-- This exercise is compose of the following files:
 File : amaysim_shopping_cart.py
 Description : This is the main file to be used. I have tested this using Python 2.7
               You may run the application via commandline ./amaysim_shopping_cart.py
@@ -12,9 +12,9 @@ Description : This is the class I have created for this exercise.
 File : amaysim_display.py
 Description : This is the simple interface for the user.
 
-# This is the configuration files I have created for this exercise.
-# I have opted in using a config file since the number of items given is fairly small.
-# However for larger scope, a database will be well suited.
+-- This is the configuration files I have created for this exercise.
+-- I have opted in using a config file since the number of items given is fairly small.
+-- However for larger scope, a database will be well suited.
 File : special_promotions.config
 Description : This is where i have configure the special promos.
               Initially I have envisoned that the promos will be flexible in terms of the following:
@@ -45,9 +45,9 @@ Description : This is where I have configured the list of valide promos and ther
                PROMO_CODE | DISCOUNT_RATE
                
 
-The following are the assumptions I had when developing this exercise:
+-- The following are the assumptions I had when developing this exercise:
 1.) That for each product_code it has only one counterpart in the special promos.
-2.) That the promocode will be applied only once, regardless if the application will ask for promocode every other item bought. In the case of entering another promocode wherein the user already has already supplied a promocode, the application will prompt if the user wants to change the promocode.
+2.) That the promocode will be applied only once, regardless if the application will ask for promocode every other item         bought. In the case of entering another promocode wherein the user already has already supplied a promocode, the application will prompt if the user wants to change the promocode.
 3.) That there will always be a unique product code for each item.
 4.) That the special promos flexiblity will only be available for the following:
     * New price per item if reached a minimum number of items
