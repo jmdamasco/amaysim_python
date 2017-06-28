@@ -47,8 +47,11 @@ Description : This is where I have configured the list of valide promos and ther
 
 -- The following are the assumptions I had when developing this exercise:
 1.) That for each product_code it has only one counterpart in the special promos.
+
 2.) That the promocode will be applied only once, regardless if the application will ask for promocode every other item         bought. In the case of entering another promocode wherein the user already has already supplied a promocode, the application will prompt if the user wants to change the promocode.
+
 3.) That there will always be a unique product code for each item.
+
 4.) That the special promos flexiblity will only be available for the following:
     * New price per item if reached a minimum number of items
     * 1 Freebie product, no matter how many the quantity as long as it is just one product.
